@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/DataTable_Project/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/DataTable_Project/static/js/main.fe61a4bd.chunk.js",
+    "main.js.map": "/DataTable_Project/static/js/main.fe61a4bd.chunk.js.map",
+    "runtime-main.js": "/DataTable_Project/static/js/runtime-main.4440c02f.js",
+    "runtime-main.js.map": "/DataTable_Project/static/js/runtime-main.4440c02f.js.map",
+    "static/js/2.92c450d6.chunk.js": "/DataTable_Project/static/js/2.92c450d6.chunk.js",
+    "static/js/2.92c450d6.chunk.js.map": "/DataTable_Project/static/js/2.92c450d6.chunk.js.map",
+    "static/css/3.61f0d284.chunk.css": "/DataTable_Project/static/css/3.61f0d284.chunk.css",
+    "static/js/3.75a8325c.chunk.js": "/DataTable_Project/static/js/3.75a8325c.chunk.js",
+    "static/js/3.75a8325c.chunk.js.map": "/DataTable_Project/static/js/3.75a8325c.chunk.js.map",
+    "index.html": "/DataTable_Project/index.html",
+    "precache-manifest.469d576e0dbdc7801f6718b118b8f2f3.js": "/DataTable_Project/precache-manifest.469d576e0dbdc7801f6718b118b8f2f3.js",
+    "service-worker.js": "/DataTable_Project/service-worker.js",
+    "static/css/3.61f0d284.chunk.css.map": "/DataTable_Project/static/css/3.61f0d284.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/DataTable_Project/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.92c450d6.chunk.js.LICENSE": "/DataTable_Project/static/js/2.92c450d6.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4440c02f.js",
+    "static/js/2.92c450d6.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.fe61a4bd.chunk.js"
+  ]
+}
