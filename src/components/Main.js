@@ -83,16 +83,17 @@ class Main extends Component {
     } = this.state;
     return (
       <div>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div className="load">Loading...</div>}>
           <DataTable data={this.state.data} width={this.state.width}></DataTable>
         </Suspense>
         {error &&
-          <div style={{ color: '#900' }}>
+          <div  style={{ color: '#900' }}>
             {error}
           </div>
         }
         {isLoading &&
-          <div>Loading...</div>
+          <div className="load">
+          </div>
         }
         {!hasMore &&
           <div> You reached the end!</div>

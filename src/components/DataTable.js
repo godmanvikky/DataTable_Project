@@ -1,5 +1,6 @@
 import React from 'react'
 import './table.css'
+import { Link as RouterLink } from 'react-router-dom';
 class DataTable extends React.Component{
     constructor(props){
         super(props)
@@ -41,8 +42,10 @@ class DataTable extends React.Component{
                         <tr onClick={this.onRowClick}>
                             <td id={i}><input type="checkbox" checked={selected?selected:null}></input></td>
                             <td className="container" id={i}>
-                                <img src={table.thumbnailUrl}/>
-                                {table.title}
+                            <a href={table.url}>
+                                <img src={table.thumbnailUrl} />
+                            </a>
+                            {table.title}
                             </td>
                             <td id={i}>In Stock</td>
                             <td id={i}>Gift Card</td>
